@@ -95,3 +95,12 @@ wget https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.16.0/zeph
 cd zephyr-sdk-0.16.0
 setup.cmd
 ```
+
+## Install Nordics VS code plugins
+
+Building projects can either be done through the command line using west tools directly or it can be done using nordic VScode plugins that can be installed found [here](https://marketplace.visualstudio.com/items?itemName=nordic-semiconductor.nrf-connect-extension-pack)
+
+When launching the SDK selected should be in your NCS folder and the Toolchain should be PATH.
+
+There is a chance the tool will inform you that python is not on the path this can be ignored. The Tool is missing the GN and we are unable to build matter projects. This can be ignored.
+
