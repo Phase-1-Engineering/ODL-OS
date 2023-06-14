@@ -99,11 +99,11 @@ manifest:
     - name: hal_st
       remote: zephyrproject
       repo-path: hal_stm32
-      revison: 300109f807
+      revision: 300109f807
     - name: nrf
       repo-path: sdk-nrf
       path: nrf
-      revison: v1.7.1
+      revision: v1.7.1
     - name: mcuboot
       repo-path: sdk-mcuboot
       revision: v1.7.99-ncs3
