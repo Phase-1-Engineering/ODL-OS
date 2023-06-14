@@ -74,7 +74,7 @@ pip3 install -r nrf/scripts/requirements.txt
 pip3 install -r bootloader/mcuboot/scripts/requirements.txt
 ```
 
-## Install the Zephyr SDK
+## Install the Zephyr SDK
 
 The Zephyr Software Development Kit (SDK) contains toolchains for each of Zephyr’s supported architectures. Each toolchain provides a compiler, assembler, linker, and some, but not all, of the rest of the programs required to build Zephyr applications. The Zephyr SDK also includes additional host tools, such as custom QEMU and OpenOCD builds. It is at the base of the nRF toolchain, which adds on top of it several tools and modules of its own.
 
@@ -95,6 +95,13 @@ wget https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.16.0/zeph
 cd zephyr-sdk-0.16.0
 setup.cmd
 ```
+
+## Setup Global Varibles
+In order to get a default terminal to run you must set some enviromental varibles
+
+```sh
+setx ZEPHYR_TOOLCHAIN_VARIANT zephyr
+setx ZEPHYR_BASE <path to sdk>
 
 ## Install Nordics VS code plugins
 
