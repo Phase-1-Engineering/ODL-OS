@@ -26,13 +26,13 @@ choco install ninja gperf git dtc-msys2 wget 7zip
 
 Ensure that these dependencies are installed with their versions as specified in the Required tools table. To check the list of installed packages and their versions, run the following command:
 ```sh
-choco list -lo
+choco list
 ```
 
 ## Installing West
 To manage the combination of repositories and versions, the nRF Connect SDK uses [Zephyr’s west.](https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/zephyr/develop/west/index.html#west)
 
-To install west, reopen the command prompt window as an administrator to ensure that Python is initialized and selected correct version of python, and enter the following command in a command-line window:
+To install west, reopen the command prompt window as an administrator to ensure that Python is initialized and is python 3, and enter the following command in a command-line window:
 ```sh
 pip install west
 ```
