@@ -192,4 +192,3 @@ manifest:
     path: ODL
     # This line configures west extensions which are currently only
     # for internal use by NCS maintainers.
-    west-commands: ../nrf/scripts/west-commands.yml
