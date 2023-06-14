@@ -102,6 +102,11 @@ In order to get a default terminal to run you must set some enviromental varible
 ```sh
 setx ZEPHYR_TOOLCHAIN_VARIANT zephyr
 setx ZEPHYR_BASE <path to sdk>
+```
+
+## Install Nordic command line tool
+
+Download and run nordics latest command line tools found [here](https://www.nordicsemi.com/Products/Development-tools/nrf-command-line-tools).
 
 ## Install Nordics VS code plugins
 
