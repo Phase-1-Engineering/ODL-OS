@@ -101,7 +101,7 @@ In order to get a default terminal to run you must set some enviromental varible
 
 ```sh
 setx ZEPHYR_TOOLCHAIN_VARIANT zephyr
-setx ZEPHYR_BASE <path to sdk>
+setx ZEPHYR_BASE <path to NCS>
 ```
 
 ## Install Nordic command line tool
