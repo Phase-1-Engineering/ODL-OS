@@ -102,6 +102,10 @@ manifest:
     #
     # Some of these are also Zephyr modules which have NCS-specific
     # changes.
+    - name: nrf
+      repo-path: sdk-nrf
+      path: nrf
+      revision: v2.3.0
     - name: hal_st
       remote: zephyrproject
       repo-path: hal_stm32
