@@ -1,6 +1,6 @@
 # ODL-OS
 This repo contains the manifest for installing the SDK and build tools required for building and running ODL build
-This is a adaption of the proccess described here: https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/nrf/getting_started/installing.html
+This is a adaption of the proccess described here: [https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/nrf/getting_started/installing.html](https://developer.nordicsemi.com/nRF_Connect_SDK/doc/2.3.0/nrf/getting_started/installing.html)
 
 
 ## Installing Tools
